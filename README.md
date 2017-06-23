@@ -1,6 +1,6 @@
 # vuex-study
 
-> A Vue.js project
+> A Vue.js project using vuex based on vue-cli webpack-simple project
 
 ## Build Setup
 
