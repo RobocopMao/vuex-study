@@ -14,10 +14,12 @@
     import * as types from '../store/mutation-types'
     export default {
         name: 'counter',
-        computed: mapGetters({
-            count: 'count',
-            clickTimes: 'clickTimes'
-        }),
+        computed: {
+            ...mapGetters([
+                'count',
+                'clickTimes'
+            ])
+        },
         methods: {
             ...mapActions({
                 'increment': types.INCREMENT,
