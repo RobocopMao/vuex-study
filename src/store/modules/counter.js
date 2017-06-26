@@ -2,9 +2,6 @@
  * Created by Administrator on 2017/6/23.
  */
 import { INCREMENT, DECREMENT } from '../mutation-types'
-// import Vue from 'vue'
-// import Vuex from 'vuex'
-// Vue.use(Vuex)
 
 export default {
     state: {

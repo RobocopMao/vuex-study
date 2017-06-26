@@ -2,9 +2,6 @@
  * Created by Administrator on 2017/6/26.
  */
 import { ADD_TODO, DEL_TODO } from '../mutation-types'
-// import Vue from 'vue'
-// import Vuex from 'vuex'
-// Vue.use(Vuex)
 
 export default {
     state: {
@@ -25,7 +22,7 @@ export default {
             return state
         },
         [DEL_TODO] (state, delIndex) {
-            state.todos.splice(delIndex, delIndex + 1)
+            state.todos.splice(delIndex, 1)
             return state
         },
     },
