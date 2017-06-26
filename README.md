@@ -1,10 +1,6 @@
 # vuex-study
 
-<<<<<<< HEAD
-> A Vue.js project
-=======
-> A Vue.js project using vuex based on vue-cli webpack-simple project
->>>>>>> 16fd796645c7908270b72d8a46776033869424b2
+A Vue.js project using vuex based on vue-cli webpack-simple project
 
 ## Build Setup
 
