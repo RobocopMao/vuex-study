@@ -3,7 +3,7 @@
         <input type="text" :value="todoVal" @change="addTodo">
         <button @click="addTodo">ADD</button>
         <ul class="todo-list">
-            <li v-for="(todo, index) in todos" :key="index" :num="index">
+            <li v-for="(todo, index) in todos">
                 <span>{{todo}}</span>
                 <a href="javascript:;" @click="delTodo(index)">X</a>
             </li>
