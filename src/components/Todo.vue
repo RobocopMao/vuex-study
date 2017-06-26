@@ -4,7 +4,7 @@
         <button @click="addTodo">ADD</button>
         <ul class="todo-list">
             <li v-for="(todo, index) in todos">
-                <span>{{todo}}</span>
+                <span>{{ todo }}</span>
                 <a href="javascript:;" @click="delTodo(index)">X</a>
             </li>
         </ul>
@@ -25,7 +25,7 @@
         methods: {
             ...mapActions({
                 'addTodo': types.ADD_TODO,
-                'delTodo': types.DEL_TODO
+                'delTodo': types.DEL_TODO,
             }),
         }
     }

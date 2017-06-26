@@ -17,7 +17,7 @@
         computed: {
             ...mapGetters([
                 'count',
-                'clickTimes'
+                'clickTimes',
             ])
         },
         methods: {
