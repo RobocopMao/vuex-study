@@ -9,7 +9,7 @@ import { ADD_TODO, DEL_TODO } from '../mutation-types'
 export default {
     state: {
         todos: [],
-        todoVal: ''
+        todoVal: '',
     },
     getters: {
         todos: state => state.todos,
@@ -27,7 +27,7 @@ export default {
         [DEL_TODO] (state, delIndex) {
             state.todos.splice(delIndex, delIndex + 1)
             return state
-        }
+        },
     },
     actions: {
         [ADD_TODO] ({ commit }, e) {
@@ -35,6 +35,6 @@ export default {
         },
         [DEL_TODO] ({ commit }, delIndex) {
             commit(DEL_TODO, delIndex)
-        }
+        },
     }
 }

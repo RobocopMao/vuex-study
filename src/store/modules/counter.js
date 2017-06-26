@@ -9,11 +9,11 @@ import { INCREMENT, DECREMENT } from '../mutation-types'
 export default {
     state: {
         count: 0,
-        clickTimes: 0
+        clickTimes: 0,
     },
     getters: {
         count: state => state.count,
-        clickTimes: state => state.clickTimes
+        clickTimes: state => state.clickTimes,
     },
     mutations: {
         [INCREMENT] (state) {
