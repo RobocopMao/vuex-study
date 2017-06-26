@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <counter></counter>
-    <todo></todo>
+    <div class="app-item">
+      <h2>Counter</h2>
+      <counter></counter>
+    </div>
+    <div>
+      <h2>Simple Todo</h2>
+      <todo></todo>
+    </div>
   </div>
 </template>
 
@@ -25,5 +31,8 @@
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  .app-item:not(last-child) {
+    margin-bottom: 100px;
+  }
 }
 </style>
