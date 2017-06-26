@@ -10,7 +10,7 @@
 </template>
 
 <script>
-    import { mapState, mapActions, mapGetters } from 'vuex'
+    import { mapActions, mapGetters } from 'vuex'
     import * as types from '../store/mutation-types'
     export default {
         name: 'counter',
