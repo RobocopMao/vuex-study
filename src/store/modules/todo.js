@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2017/6/26.
- */
 import { ADD_TODO, DEL_TODO } from '../mutation-types'
 
 export default {

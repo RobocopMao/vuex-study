@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2017/6/23.
- */
 import Vue from 'vue'
 import Vuex from 'vuex'
 import * as modules from './modules'
