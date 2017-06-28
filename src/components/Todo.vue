@@ -34,6 +34,7 @@
 <style lang="scss">
     .todo-list {
         li {
+            list-style: none;
             margin-bottom: 10px;
             text-align: left;
             a {
