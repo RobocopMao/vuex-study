@@ -13,6 +13,10 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+# node-sass install failed to use this(in China):
+install cnpm: npm install -g cnpm --registry=https://registry.npm.taobao.org
+then: cnpm install node-sass
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
